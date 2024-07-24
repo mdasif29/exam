@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        #products{
+            background-image: url(https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+     
+    #contact {
+        background-color: #f8f9fa;
+        padding: 20px;
+        
+    }
+    #contact h2 {
+        color: #080909;
+    }
+    #payments {
+        background-color: #ffffff;
+        padding: 20px;
+        
+    }
+    #payments .card {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    #payments .card-title {
+        color: #fafcff;
+    }
+    #payments img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .navbar {
+        background-image: url('https://i.giphy.com/xT0GqcCJJJH12hJvGM.webp');
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+        color: #000000; 
+    }
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #000000 !important; 
+    }
+    .navbar .nav-link:hover {
+        color: #000000 !important; 
+    }
+
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <a class="navbar-brand" href="#">BAKE HOUSE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#products">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#payments">Payments</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+ 
+    <section id="home" class="container mt-5">
+        <h1 class="text-center">Welcome to the BAKEHOUSE</h1>
+
+
+    </section>
+
+
+
+    
+    <section id="products" class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top img-fluid" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">PAN CAKE</h5>
+                        <p class="card-text">Fluffy and golden-brown, our pancakes are perfect for breakfast or brunch. Served with maple syrup and a touch of powdered sugar, they’re a classic treat. Add fresh berries or chocolate chips for extra indulgence.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top img-fluid" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">TASTY MODDLES</h5>
+                        <p class="card-text">Deliciously savory noodles, stir-fried with fresh vegetables and our signature sauce. Ideal for a quick lunch or a satisfying dinner. Enjoy the perfect balance of flavors and textures in every bit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/26890891/pexels-photo-26890891/free-photo-of-woman-hand-putting-blueberries-on-sweet-cake.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top img-fluid" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title">YUMMY CAKE</h5>
+                        <p class="card-text">Our cake features rich, moist layers and creamy frosting, made with the finest ingredients. Available in flavors like chocolate, vanilla, and lemon. Perfect for special occasions or a sweet treat anytime</p>
+                    </div>
+                </div>
+            </div>
+           
+    </section>
+
+
+
+
+    <section id="contact" class="container mt-5">
+        <h2 class= "mb-4">Contact Us</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-danger">Send Message</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h4 class="text-center">your addrresss</h4>
+                <p class="text-center"> vijayawada</p>
+                <p class="text-center">Email: skasifshareif@gmail.com</p>
+                <p class="text-center">Phone: +9247856786</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+    <section id="payments" class="container mt-5">
+        <h2 class=" mb-4">Payment Methods</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center border-primary mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Credit Card</h5>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVXS7JLcFiK-M3DehHSX2uLTcbXyPWsM5xQA&s" alt="Credit Card" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center border-success mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">PayPal</h5>
+                        <img src="https://cdn.pixabay.com/photo/2018/05/08/21/29/paypal-3384015_1280.png" alt="PayPal" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center border-danger mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Bank Transfer</h5>
+                        <img src="data:image/jpeg;base64,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" alt="Bank Transfer" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+      
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
